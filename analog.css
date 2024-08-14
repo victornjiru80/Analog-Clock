@@ -1,0 +1,158 @@
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height:  100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: grey;
+  font-family: Arial, sans-serif; 
+}
+
+
+#digital-clock {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: #eee;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+.numbers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+
+.number {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 800;
+  transform-origin: center center;
+}
+
+
+.number:nth-child(1) {
+  top: 15%;
+  left: 75%;
+  transform: rotate(30deg)  translate(0, -50%);
+}
+
+.number:nth-child(2) {
+  top: 25%;
+  left: 85%;
+  transform: rotate(60deg)  translate(0, -50%);
+}
+
+.number:nth-child(3) {
+  top: 50%;
+  left: 90%;
+  transform: rotate(90deg)  translate(0, -50%);
+}
+
+.number:nth-child(4) {
+  top: 75%;
+  left: 85%;
+  transform: rotate(120deg)  translate(0, -50%);
+}
+
+.number:nth-child(5) {
+  top: 85%;
+  left: 75%;
+  transform: rotate(150deg)  translate(0, -50%);
+}
+
+.number:nth-child(6) {
+  top: 90%;
+  left: 50%;
+  transform: rotate(180deg)  translate(0, -50%);
+}
+
+.number:nth-child(7) {
+  top: 85%;
+  left: 25%;
+  transform: rotate(210deg)  translate(0, -50%);
+}
+
+.number:nth-child(8) {
+  top: 75%;
+  left: 15%;
+  transform: rotate(240deg)  translate(0, -50%);
+}
+
+.number:nth-child(9) {
+  top: 50%;
+  left: 10%;
+  transform: rotate(270deg)  translate(0, -50%);
+}
+
+.number:nth-child(10) {
+  top: 25%;
+  left: 15%;
+  transform: rotate(300deg)  translate(0, -50%);
+}
+
+.number:nth-child(11) {
+  top: 15%;
+  left: 25%;
+  transform: rotate(330deg)  translate(0, -50%);
+}
+
+.number:nth-child(12) {
+  top: 10%;
+  left: 50%;
+  transform: rotate(360deg)  translate(0, -50%);
+}
+
+
+
+.line-hour {
+  height: 80px;
+  background: black;
+}
+
+
+.line-minute {
+  height: 120px;
+  background: black;
+}
+
+.line-second {
+  height: 150px;
+  background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
