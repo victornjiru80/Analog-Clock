@@ -24,5 +24,4 @@ document.addEventListener("DOMContentLoaded",  () => {
   setInterval(updateClock, 1000);
   updateClock();
   
-}           
-)
+})
